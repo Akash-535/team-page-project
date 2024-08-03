@@ -1,0 +1,44 @@
+:root {
+  /*===========Font-Size===============*/
+  --fs-sm: 12px;
+  --fs-md: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 18px;
+  --fs-2xl: 20px;
+  --fs-3xl: 24px;
+  --fs-4xl: 56px;
+  --fs-5xl: 64px;
+
+  /*==========Font-color=============*/
+  --color-red: #ff0000;
+  --color-white: #ffff;
+  --color-black: #0000;
+  --color-red: #ff0000;
+  --color-red: #ff0000;
+}
+
+/*==========Font-size=======*/
+.fs-12 {
+  font-size: var(--fs-sm);
+}
+.fs-14 {
+  font-size: var(--fs-md);
+}
+.fs-16 {
+  font-size: var(--fs-lg);
+}
+.fs-18 {
+  font-size: var(--fs-xl);
+}
+.fs-20 {
+  font-size: var(--fs-2xl);
+}
+.fs-24 {
+  font-size: var(--fs-3xl);
+}
+.fs-56 {
+  font-size: var(--fs-4xl);
+}
+.fs-64 {
+  font-size: var(--fs-5xl);
+}
