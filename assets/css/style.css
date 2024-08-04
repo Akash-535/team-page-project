@@ -13,7 +13,7 @@
 /*===========Header===========*/
 /*==========Navbar===========*/
 .header-bg-image {
-  background-image: url(/assets/images/png/header-background-image.png);
+  background-image: url(/assets/images/png/hero-background.png);
 }
 .nav-text:hover {
   -webkit-text-stroke: 1px;
@@ -160,5 +160,13 @@
 
   .about-head {
     font-size: 40px !important;
+  }
+}
+@media (max-width: 768px) {
+  .about-heading {
+    font-size: 18px !important;
+  }
+  .about-pera {
+    font-size: 14px !important;
   }
 }
