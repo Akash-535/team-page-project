@@ -6,6 +6,9 @@
 .plus-jakarta-sans {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+.cursor {
+  cursor: pointer;
+}
 /*===========Header===========*/
 /*==========Navbar===========*/
 .header-bg-image {
@@ -36,8 +39,9 @@
   transition: all 300ms linear;
 }
 .nav-vibrate:hover {
-  animation: shaking 0.5s infinite;
+  animation: shaking 0.2s infinite;
 }
+
 @keyframes shaking {
   0% {
     transform: rotate(0deg);
@@ -84,8 +88,36 @@
   border-radius: 20px;
   cursor: pointer;
 }
+.media-card:hover,
+.social-img:hover {
+  transform: scale(1.02);
+}
 .social-img {
   cursor: pointer;
+}
+
+/*=====About custmor's care=====*/
+.w-1140 {
+  max-width: 1140px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.about-custmor-card {
+  width: 364px;
+  height: 470px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  transition: all 100ms ease-in-out;
+}
+.about-custmor-card:hover {
+  border: transparent !important;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) !important;
+}
+.about-learn:hover {
+  -webkit-text-stroke: 0.5px;
 }
 
 /*==============================responsive==================*/
@@ -125,5 +157,25 @@
 
   .line-1 {
     width: 13px;
+  }
+  .about-custmor-card {
+    width: 250px;
+    height: 305px;
+  }
+  .about-img {
+    width: 210px !important;
+    height: 140px !important;
+  }
+  .about-heading {
+    font-size: 18px !important;
+  }
+  .about-pera {
+    font-size: 12px !important;
+  }
+  .about-learn {
+    font-size: 12px !important;
+  }
+  .about-card-text {
+    padding-top: 0 !important;
   }
 }
