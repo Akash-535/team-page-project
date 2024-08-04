@@ -13,34 +13,39 @@
   --color-red: #ff0000;
   --color-white: #ffff;
   --color-black: #000000;
-
-  --bg-red: #ff0000;
 }
 
 /*==========Font-size=======*/
 .fs-12 {
   font-size: var(--fs-sm);
+  line-height: 160%;
 }
 .fs-14 {
   font-size: var(--fs-md);
+  line-height: 160%;
 }
 .fs-16 {
   font-size: var(--fs-lg);
+  line-height: 160%;
 }
 .fs-18 {
   font-size: var(--fs-xl);
+  line-height: 155%;
 }
 .fs-20 {
   font-size: var(--fs-2xl);
+  line-height: 160%;
 }
 .fs-24 {
   font-size: var(--fs-3xl);
 }
 .fs-56 {
   font-size: var(--fs-4xl);
+  line-height: 125%;
 }
 .fs-64 {
   font-size: var(--fs-5xl);
+  line-height: 126%;
 }
 
 /*=========color-red==========*/
@@ -57,5 +62,5 @@
   background-color:var(--color-white);
 }
 .bg-red {
-  background-color: var(--bg-red);
+  background-color: var(--color-red);
 }
