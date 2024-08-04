@@ -29,15 +29,16 @@
     padding: 18px 32px;
 }
 .border-red{
+    background:none;
     border: 1px solid var(--color-red);
 }
-.work-sec-btn{
-    background: none;
+.get-btn{
     transition: all .3s linear;
 }
-.work-sec-btn:hover{
-    background-color:var(--color-red);
+.get-btn:hover{
+    background-color:var(--color-red) !important;
     color: var(--color-white);
+    border: 1px solid var(--color-white) !important;
 }
 .red-box{
     transform: translate(10% 10%);
@@ -83,5 +84,24 @@
   }
   .box{
     border-radius: 24px;
+  }
+  .mb-56{
+    margin-bottom: 56px;
+  }
+  .max-width-300{
+    max-width: 300px;
+  }
+  .custmor-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    transition: all 100ms ease-in-out;
+  }
+  .custmor-card:hover {
+    border: transparent !important;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) !important;
+  }
+  .about-learn:hover {
+    -webkit-text-stroke: 0.5px;
   }
 
