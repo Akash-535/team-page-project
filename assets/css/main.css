@@ -153,13 +153,6 @@
   cursor: pointer;
 }
 
-.slider-box:hover {
-  border: 2px solid rgb(250, 45, 45);
-  box-shadow: 0 12px 16px 0 rgba(103, 98, 98, 0.35),
-    0 17px 50px 0 rgba(79, 75, 75, 0.19);
-  transition: 0.5s;
-}
-
 .mt-60 {
   margin-top: 60px;
 }
@@ -186,10 +179,6 @@
 
 section .container .sliderbox .slick-dots li button:before {
   opacity: 0 !important;
-}
-
-.gap-30 {
-  gap: 15px !important;
 }
 
 .mt-60 {
@@ -224,10 +213,16 @@ section .container .sliderbox .slick-list::after {
 .mt-25 {
   margin-top: 25px;
 }
-
+.w-1140 {
+  max-width: 1140px;
+}
 .pt-30 {
   padding-top: 30px;
 }
 .element.style {
   width: auto !important;
+}
+.slick-prev:before,
+.slick-prev::after {
+  display: none;
 }
