@@ -136,6 +136,11 @@
 }
 
 /*==============================responsive==================*/
+@media (max-width: 1200px) {
+  .nav-link-width {
+    width: 90%;
+  }
+}
 @media (max-width: 992px) {
   .nav-link {
     display: flex;
