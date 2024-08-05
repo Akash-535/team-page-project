@@ -103,9 +103,6 @@
 /*===================================accordion============================*/
 .down-arrow::after {
     background-image: url(/assets/images/svg/accordion-down-arrow.svg) !important;
-}
-
-.down-arrow::after {
     background-color: red;
     border-radius: 6px;
 }
