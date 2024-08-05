@@ -7,6 +7,12 @@
     <title>Team-page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/root.css">
 </head>
@@ -384,7 +390,7 @@
 
     </section>
     <!----About hotel room------>
-    <section class="bg-light-pink pt-5 pb-5">
+    <section class="bg-light-pink pt-5 pb-5 ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -452,12 +458,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 justify-content-center d-flex p-4">
+                <div class="col-lg-6 justify-content-center align-items-center mx-auto d-flex p-4 pb-5">
                     <div class="position-relative">
-                        <div class="max-width-470"><img class="w-100 z-index h-img" src="./assets/images/png/hotel.png"
+                        <div class="max-width-470"><img class="w-75 z-index h-img" src="./assets/images/png/hotel.png"
                                 alt="room-img">
                         </div>
-                        <div class="red-box max-width-300 rounded-4 position-absolute"> <img class="w-100
+                        <div class="red-box max-width-300 rounded-4 position-absolute"> <img class="w-75  red-box-img
                         " src="./assets/images/png/red-box.png" alt="red-box"></div>
                     </div>
                 </div>
@@ -466,11 +472,820 @@
 
 
     </section>
+    <!--------custmor-advice---------->
+    <section class=" overflow-hidden pt-5">
+        <div class="container w-1140">
+            <div class=" d-flex justify-content-center">
+                <div class="max-width-674 mb-32">
+                    <h3 class="text-center fs-56 fw-semibold color-black">What Our Customers Say</h3>
+                    <p class="text-center fs-18 fw-normal color-black">Lörem ipsum koda astrobel: sutaveligen. Rodod
+                        bänera viliga.
+                        Pregigt
+                        primasofi dede
+                        facebooka: förutom
+                        tivaligt. Fejkade</p>
+                </div>
+            </div>
+            <div class="d-flex gap-4 flex-wrap justify-content-center manrope">
+                <div
+                    class=" d-flex align-items-center gap-2  py-2 ps-3 pe-5 rounded-3 media-card-2 cursor transition-300ms">
+                    <div>
+                        <img src="./assets/images/svg/google-icon.svg" alt="google-icon">
+                    </div>
+                    <div>
+                        <p class="mb-0 fs-12 fw-normal">Google Review</p>
+                        <div class=" gap-2 align-items-center">
+                            <div class=" d-flex gap-1 align-items-center">
+                                <p class="mb-0 fs-20 fw-normal">4.5</p>
+                                <img class="" src="./assets/images/svg/five-star.svg" alt="five-star">
+                            </div>
+                            <p class="mb-0 fs-12 fw-normal">Based on 145 reviews</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" d-flex  gap-2 review py-2 pe-5 rounded-3 media-card-2 cursor transition-300ms">
+                    <div>
+                        <div><img src="./assets/images/svg/green-star.svg" alt="green-star"></div>
+                    </div>
+                    <div>
+                        <p class="mb-0 fs-12 fw-normal">Trust Pilot Review</p>
+                        <div class=" gap-2 align-items-center">
+                            <div class=" d-flex gap-1 align-items-center">
+                                <p class="mb-0 fs-20 fw-normal">4.5</p>
+                                <img class="" src="./assets/images/svg/five-star.svg" alt="five-star">
+                            </div>
+                            <p class="mb-0 fs-12 fw-normal">Based on 145 reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------Slider-->
+            <div class="mt-60  pb-5 manrope">
+                <div class="container " id="features">
+                    <div class="sliderbox z-5 d-flex gap-30 align-items-center">
+                        <div class="slider-box mx-4 ">
+                            <div class="d-flex  flex-column">
+                                <div class="d-flex ">
+                                    <div class="slider-image">
+                                        <img src="./assets/images/png/slider-1.png" alt="image">
+                                    </div>
+                                    <div class="para-1 pl-20">
+                                        <h2 class="slick-box-heading color-black fs-16 fw-semibold mb-0">Mark T.</h2>
+                                        <p class="slick-box-address mb-0 fs-14 fw-normal color-black">Fitness enthusiast
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="para-2 d-flex   gap-2">
+                                    <img class="w-50" src="./assets/images/svg/five-star.svg" alt="//"> </div>
+                            </div>
+                            <p class="slick-para-3 mb-0 fs-16 fw-normal color-black">"As a fitness enthusiast, I was
+                                skeptical about
+                                resistance bands at first. But after trying these, I'm a believer. The quality is
+                                top-notch, and they've
+                                become an integral part of my workout routine. I can't believe how versatile they are.”
+                            </p>
+                        </div>
+                        <div class="slider-box mx-4 ">
+                            <div class="d-flex  flex-column">
+                                <div class="d-flex ">
+                                    <div class="slider-image">
+                                        <img src="./assets/images/png/slider-2.png" alt="image">
+                                    </div>
+                                    <div class="para-1 pl-20">
+                                        <h2 class="slick-box-heading ccolor-black fs-16 fw-semibold mb-0">Mark T.</h2>
+                                        <p class="slick-box-address mb-0 fs-14 fw-normal color-black">Fitness enthusiast
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="para-2 d-flex   gap-2">
+                                    <img class="w-50" src="./assets/images/svg/five-star.svg" alt="//"> </div>
+                            </div>
+                            <p class="slick-para-3 mb-0 fs-16 fw-normal color-black">"As a fitness enthusiast, I was
+                                skeptical about
+                                resistance bands at first. But after trying these, I'm a believer. The quality is
+                                top-notch, and they've
+                                become an integral part of my workout routine. I can't believe how versatile they are.”
+                            </p>
+                        </div>
+                        <div class="slider-box mx-4 ">
+                            <div class="d-flex  flex-column">
+                                <div class="d-flex ">
+                                    <div class="slider-image">
+                                        <img src="./assets/images/png/slider-3.png" alt="image">
+                                    </div>
+                                    <div class="para-1 pl-20">
+                                        <h2 class="slick-box-heading color-black fs-16 fw-semibold mb-0">Mark T.</h2>
+                                        <p class="slick-box-address mb-0 fs-14 fw-normal color-black">Fitness enthusiast
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="para-2 d-flex   gap-2">
+                                    <img class="w-50" src="./assets/images/svg/five-star.svg" alt="//"> </div>
+                            </div>
+                            <p class="slick-para-3 mb-0 fs-16 fw-normal color-black">"As a fitness enthusiast, I was
+                                skeptical about
+                                resistance bands at first. But after trying these, I'm a believer. The quality is
+                                top-notch, and they've
+                                become an integral part of my workout routine. I can't believe how versatile they are.”
+                            </p>
+                        </div>
+                        <div class="slider-box mx-4 ">
+                            <div class="d-flex  flex-column">
+                                <div class="d-flex ">
+                                    <div class="slider-image">
+                                        <img src="./assets/images/png/slider-4.png" alt="image">
+                                    </div>
+                                    <div class="para-1 pl-20">
+                                        <h2 class="slick-box-heading color-black fs-16 fw-semibold mb-0">Mark T.</h2>
+                                        <p class="slick-box-address mb-0 fs-14 fw-normal color-black">Fitness enthusiast
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="para-2 d-flex   gap-2">
+                                    <img class="w-50" src="./assets/images/svg/five-star.svg" alt="//"> </div>
+                            </div>
+                            <p class="slick-para-3 mb-0 fs-16 fw-normal color-black">"As a fitness enthusiast, I was
+                                skeptical about
+                                resistance bands at first. But after trying these, I'm a believer. The quality is
+                                top-notch, and they've
+                                become an integral part of my workout routine. I can't believe how versatile they are.”
+                            </p>
+                        </div>
+                        <div class="slider-box mx-4 ">
+                            <div class="d-flex  flex-column">
+                                <div class="d-flex ">
+                                    <div class="slider-image">
+                                        <img src="./assets/images/png/slider-3.png" alt="image">
+                                    </div>
+                                    <div class="para-1 pl-20">
+                                        <h2 class="slick-box-heading color-black fs-16 fw-semibold mb-0">Mark T.</h2>
+                                        <p class="slick-box-address mb-0 fs-14 fw-normal color-black">Fitness enthusiast
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="para-2 d-flex   gap-2">
+                                    <img class="w-50" src="./assets/images/svg/five-star.svg" alt="//"> </div>
+                            </div>
+                            <p class="slick-para-3 mb-0 fs-16 fw-normal color-black">"As a fitness enthusiast, I was
+                                skeptical about
+                                resistance bands at first. But after trying these, I'm a believer. The quality is
+                                top-notch, and they've
+                                become an integral part of my workout routine. I can't believe how versatile they are.”
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!---------About-work-------------->
+    <section class="pt-5">
+        <div class="container w-1140">
+            <div class="row">
+                <div class="col-lg-6 justify-content-center d-flex p-4">
+                    <div class="w-75 justify-content-center d-flex">
+                        <div class="position-relative">
+                            <div class=""><img class="w-100 h-100 z-index" src="./assets/images/png/room-img.png"
+                                    alt="room-img">
+                            </div>
+                            <div class="red-box-2 max-width-300 rounded-4 position-absolute"> <img class="w-100"
+                                    src="./assets/images/png/red-box.png" alt="red-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-lg-0 pt-5">
+                    <div>
+                        <h3 class="fs-56 fw-semibold mb-20">How it works?</h3>
+                        <p class="pb-3">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi
+                            dede
+                            facebooka: förutom
+                            tivaligt. </p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center pb-4">
+                        <div class="d-flex gap-4 bg-white about-box-shadow p-3 rounded-4 max-width-592">
+                            <div>
+                                <div><img src="./assets/images/svg/check.svg" alt="check"></div>
+                            </div>
+                            <div>
+                                <p class="mb-3 fs-20 fw-semibold">Contact us</p>
+                                <p class="mb-1 fs-16 fw-normal">Lörem ipsum deligen vuprer diar faktigt på dehädiska att
+                                    sara. Persion.
+                                    Repp löng blippbetalning.
+                                    Megaliga fadat om än dening</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-4 bg-white about-box-shadow p-3 rounded-4 max-width-592 my-3">
+                            <div>
+                                <div><img src="./assets/images/svg/check.svg" alt="check"></div>
+                            </div>
+                            <div>
+                                <p class="mb-3 fs-20 fw-semibold">Get a Qoute</p>
+                                <p class="mb-1 fs-16 fw-normal">Lörem ipsum deligen vuprer diar faktigt på dehädiska att
+                                    sara. Persion.
+                                    Repp löng blippbetalning.
+                                    Megaliga fadat om än dening</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-4 bg-white about-box-shadow p-3 rounded-4 max-width-592">
+                            <div>
+                                <div><img src="./assets/images/svg/check.svg" alt="check"></div>
+                            </div>
+                            <div>
+                                <p class="mb-3 fs-20 fw-semibold">Get your Work Done</p>
+                                <p class="mb-1 fs-16 fw-normal">Lörem ipsum deligen vuprer diar faktigt på dehädiska att
+                                    sara. Persion.
+                                    Repp löng blippbetalning.
+                                    Megaliga fadat om än dening</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gap-4 d-flex mt-36 flex-wrap justify-content-center">
+                        <div>
+                            <button
+                                class="get-btn fs-18 fw-bold rounded-5 padding-18-32 color-red border-red text-nowrap">Get
+                                a
+                                Quote</button>
+                        </div>
+                        <div>
+                            <button
+                                class="get-btn fs-18 fw-bold rounded-5 padding-18-32 color-red border-red text-nowrap">View
+                                Tile
+                                Visualizer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------red-section------->
+    <section class=" font-family   d-flex align-items-center pt-5 pb-5">
+        <div class="container w-1140
+ text-white rounded-3 ">
+            <div class="box py-64 bg-image w-100 justify-content-center align-items-center align-content-center d-flex">
+                <div class="z-index">
+                    <div class="mb-3">
+                        <h2 class="text-center mb-0 fs-56 fw-bold">Interested?</h2>
+                        <h2 class="text-center fs-56 fw-bold mb-0">Get in touch with us</h2>
+                    </div>
+                    <div class=" justify-content-center d-flex max-width-592">
+                        <p class=" text-center fs-18 fw-normal mb-0">Lörem ipsum koda astrobel: sutaveligen. Rodod
+                            bänera viliga.
+                            Pregigt primasofi dede
+                            facebooka: förutom tivaligt. </p>
+                    </div>
+                    <div class="justify-content-center d-flex mt-4">
+                        <button class=" get-btn border-red fs-18 fw-bold bg-white rounded-5 padding-18-32 color-red">Get
+                            a
+                            Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------Our-blog----------->
+    <section class="plus-jakarta-sans pb-5 pt-5">
+        <div class="container w-1140">
+            <div class=" d-flex flex-column align-items-center pb-5">
+                <h2 class="text-center fs-56 fw-semibold">Our Blog</h2>
+                <div class="max-width-592">
+                    <p class="text-center fs-18 fw-normal mb-0 text-black">Lörem ipsum koda astrobel: sutaveligen. Rodod
+                        bänera
+                        viliga.
+                        Pregigt primasofi dede
+                        facebooka: förutom
+                        tivaligt. Fejkade</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-4 custmor-card">
+                        <div class="mb-4"><img class="w-100" src="./assets/images/png/Kitchen-Backsplash.png"
+                                alt="kitchen"></div>
+                        <div class="pe-5 max-width-300">
+                            <h4 class="fs-24 fw-semibold mb-0">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera
+                                viliga. </h4>
+                        </div>
+                        <div class="d-flex flex-row gap-4 pt-0 pt-lg-3">
+                            <p class="color-red cursor fs-16 fw-bold about-learn">Learn more</p>
+                            <span class="cursor"><svg width="26" height="12" viewBox="0 0 26 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75V5.25ZM25.5303 6.53033C25.8232 6.23744 25.8232 5.76256 25.5303 5.46967L20.7574 0.696699C20.4645 0.403806 19.9896 0.403806 19.6967 0.696699C19.4038 0.989593 19.4038 1.46447 19.6967 1.75736L23.9393 6L19.6967 10.2426C19.4038 10.5355 19.4038 11.0104 19.6967 11.3033C19.9896 11.5962 20.4645 11.5962 20.7574 11.3033L25.5303 6.53033ZM1 6.75H25V5.25H1V6.75Z"
+                                        fill="#FF0000" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-4 custmor-card">
+                        <div class="mb-4"><img class="w-100" src="./assets/images/png/Kitchen-Backsplash.png"
+                                alt="kitchen"></div>
+                        <div class="pe-5 max-width-300">
+                            <h4 class="fs-24 fw-semibold mb-0">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera
+                                viliga. </h4>
+                        </div>
+                        <div class="d-flex flex-row gap-4 pt-0 pt-lg-3">
+                            <p class="color-red cursor fs-16 fw-bold about-learn">Learn more</p>
+                            <span class="cursor"><svg width="26" height="12" viewBox="0 0 26 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75V5.25ZM25.5303 6.53033C25.8232 6.23744 25.8232 5.76256 25.5303 5.46967L20.7574 0.696699C20.4645 0.403806 19.9896 0.403806 19.6967 0.696699C19.4038 0.989593 19.4038 1.46447 19.6967 1.75736L23.9393 6L19.6967 10.2426C19.4038 10.5355 19.4038 11.0104 19.6967 11.3033C19.9896 11.5962 20.4645 11.5962 20.7574 11.3033L25.5303 6.53033ZM1 6.75H25V5.25H1V6.75Z"
+                                        fill="#FF0000" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-4 custmor-card">
+                        <div class="mb-4"><img class="w-100" src="./assets/images/png/Kitchen-Backsplash.png"
+                                alt="kitchen"></div>
+                        <div class="pe-5 max-width-300">
+                            <h4 class="fs-24 fw-semibold mb-0">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera
+                                viliga. </h4>
+                        </div>
+                        <div class="d-flex flex-row gap-4 pt-0 pt-lg-3">
+                            <p class="color-red cursor fs-16 fw-bold about-learn">Learn more</p>
+                            <span class="cursor"><svg width="26" height="12" viewBox="0 0 26 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75V5.25ZM25.5303 6.53033C25.8232 6.23744 25.8232 5.76256 25.5303 5.46967L20.7574 0.696699C20.4645 0.403806 19.9896 0.403806 19.6967 0.696699C19.4038 0.989593 19.4038 1.46447 19.6967 1.75736L23.9393 6L19.6967 10.2426C19.4038 10.5355 19.4038 11.0104 19.6967 11.3033C19.9896 11.5962 20.4645 11.5962 20.7574 11.3033L25.5303 6.53033ZM1 6.75H25V5.25H1V6.75Z"
+                                        fill="#FF0000" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------accordion--------->
+    <section class="py-140">
+        <div class="container w-1140">
+            <div class="pb-5">
+                <h3 class="text-center fs-56 fw-semibold mb-4">Frequently Asked Questions</h3>
+                <div class="max-width-592 mx-auto ">
+                    <p class="text-center fs-18 fw-normal">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                        Pregigt
+                        primasofi dede facebooka: förutom tivaligt. Fejkade</p>
+                </div>
+            </div>
+            <div>
+                <div class="accordion max-width-912 mx-auto accordion-flush" id="accordionFlushExampleone">
+                    <div class="accordion-item border-0 mx-auto bg-white mb-3">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button accordion-heading down-arrow collapsed gap-2  text-black bg-transparent fs-18 fw-normal"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1"
+                                aria-expanded="false" aria-controls="flush-collapse1">
+                                Lörem ipsum koda astrobel: sutaveligen.
+                            </button>
+                        </h2>
+                        <div id="flush-collapse1" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExampleone">
+                            <div class="accordion-body text-black opacity-75 d-flex gap-2 fs-18 fw-normal">
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est
+                                    malesuada massa nec pharetra.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mx-auto bg-blur mb-3">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button accordion-heading down-arrow collapsed text-black bg-transparent gap-2 fs-18 fw-normal"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2"
+                                aria-expanded="false" aria-controls="flush-collapse2">
+                                Rodod bänera viliga
+                            </button>
+                        </h2>
+                        <div id="flush-collapse2" class="accordion-collapse collapse text-black"
+                            data-bs-parent="#accordionFlushExampleone">
+                            <div class="accordion-body opacity-75 d-flex gap-2 fs-18 fw-normal">
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est
+                                    malesuada massa nec pharetra.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mx-auto bg-blur mb-3">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button accordion-heading down-arrow collapsed text-black bg-transparent gap-2 fs-18 fw-normal"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3"
+                                aria-expanded="false" aria-controls="flush-collapse3">
+                                Pregigt primasofi dede facebooka: förutom
+                            </button>
+                        </h2>
+                        <div id="flush-collapse3" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExampleone">
+                            <div class="accordion-body text-black opacity-75 d-flex gap-2 fs-18 fw-normal">
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est
+                                    malesuada massa nec pharetra.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mx-auto bg-blur mb-3">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button accordion-heading down-arrow bg-transparent collapsed text-black gap-2 fs-18 fw-normal"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4"
+                                aria-expanded="false" aria-controls="flush-collapse4">
+                                Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                            </button>
+                        </h2>
+                        <div id="flush-collapse4" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExampleone">
+                            <div class="accordion-body text-black opacity-75 d-flex gap-2 fs-18 fw-normal">
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est
+                                    malesuada massa nec pharetra.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mx-auto bg-blur">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button accordion-heading down-arrow bg-transparent collapsed text-black gap-2 fs-18 fw-normal"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5"
+                                aria-expanded="false" aria-controls="flush-collapse5">
+                                Rodod bänera viliga. Pregigt primasofi dede facebooka
+                            </button>
+                        </h2>
+                        <div id="flush-collapse5" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExampleone">
+                            <div class="accordion-body text-black opacity-75 d-flex gap-22 fs-18 fw-normal">
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est
+                                    malesuada massa nec pharetra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------location-section-->
+    <section class="pb-5 plus-jakarta-sans">
+        <div class="container">
+            <div class="location-heading">
+                <p class="fs-56 w-50 fw-semibold color-black">We provide services in these areas</p>
+                <p class="w-50 fs-18 fw-normal color-black">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                    Pregigt
+                    primasofi dede
+                    facebooka:
+                    förutom tivaligt. Fejkade</p>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Knoxville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Sevierville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Maynardville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Knoxville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Sevierville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Maynardville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Knoxville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Sevierville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Maynardville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Knoxville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Sevierville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Maynardville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Knoxville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Sevierville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Maynardville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Knoxville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Sevierville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Maynardville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Knoxville</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-3">
+                    <div class="location-card d-flex flex-row align-items-center gap-3 py-3 ps-4 rounded-4">
+                        <div class="location-img ">
+                            <img class="bg-red p-2 rounded-circle " src="./assets/images/svg/location.svg" alt="">
+                        </div>
+                        <div class="location-card-text">
+                            <p class="fs-24 fw-semibold color-black mb-0">Sevierville</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!----------Footer-------->
+    <footer class="pt-5 pb-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-logo">
+                        <img class="w-50" src="./assets/images/svg/logo.svg" alt="//">
+                    </div>
+                    <div class="footer-mail gap-2 d-flex pt-3 ">
+                        <span class="mail"><a href="mailto:help@Dealzip.com"><svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.939 3C18.28 3 19.57 3.53 20.519 4.481C21.469 5.43 22 6.71 22 8.05V15.95C22 18.74 19.73 21 16.939 21H7.06C4.269 21 2 18.74 2 15.95V8.05C2 5.26 4.259 3 7.06 3H16.939ZM18.07 8.2C17.86 8.189 17.66 8.26 17.509 8.4L13 12C12.42 12.481 11.589 12.481 11 12L6.5 8.4C6.189 8.17 5.759 8.2 5.5 8.47C5.23 8.74 5.2 9.17 5.429 9.47L5.56 9.6L10.11 13.15C10.67 13.59 11.349 13.83 12.06 13.83C12.769 13.83 13.46 13.59 14.019 13.15L18.53 9.54L18.61 9.46C18.849 9.17 18.849 8.75 18.599 8.46C18.46 8.311 18.269 8.22 18.07 8.2Z"
+                                        fill="#FF0000" />
+                                </svg></a>
+                        </span>
+                        <p><a class="text-decoration-none fs-16 fw-normal color-black" href="mailto:help@Dealzip.com"
+                                target="_blank">help@Dealzip.com</a></p>
+                    </div>
+                    <div class="footer-tel d-flex gap-2">
+                        <span class="tel"><a href="tel:+1 234 456 678 89"><svg width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.53174 10.4724C13.5208 14.4604 14.4258 9.84672 16.9656 12.3848C19.4143 14.8328 20.8216 15.3232 17.7192 18.4247C17.3306 18.737 14.8616 22.4943 6.1846 13.8197C-2.49348 5.144 1.26158 2.67244 1.57397 2.28395C4.68387 -0.826154 5.16586 0.589383 7.61449 3.03733C10.1544 5.5765 5.54266 6.48441 9.53174 10.4724Z"
+                                        fill="#FF0000" />
+                                </svg>
+                            </a></span>
+                        <p><a class="text-decoration-none fs-16 fw-normal color-black" href="tel:+1 234 456 678 89">+1
+                                234 456 678 89</a></p>
+                    </div>
+                    <div class="footer-media-icon d-flex gap-3 pt-3">
+                        <div class="facebook overflow-hidden rounded-circle">
+                            <a href="https://facebook.com" target="_blank"> <img class="footer-icon transition-100ms"
+                                    src="./assets/images/svg/facebook.svg" alt="//"></a>
+                        </div>
+                        <div class="insta overflow-hidden rounded-circle">
+                            <a href="https://instagram.com" target="_blank"><img class="footer-icon transition-100ms"
+                                    src="./assets/images/svg/instagram.svg" alt="./"></a>
+                        </div>
+                        <div class="twitter overflow-hidden rounded-circle">
+                            <a href="https://twitter.com" target="_blank"><img class="footer-icon transition-100ms"
+                                    src="./assets/images/svg/twitter.svg" alt="./"></a>
+                        </div>
+                        <div class="in overflow-hidden rounded-circle">
+                            <a href="https://in.com" target="_blank"><img class="footer-icon transition-100ms"
+                                    src="./assets/images/svg/in.svg" alt="/"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-8 ">
+                            <div class="row">
+                                <div class="col-lg-4 col-6">
+                                    <div class="footer-col-head">
+                                        <p class="fs-20 fw-semibold color-black">Links</p>
+                                    </div>
+                                    <div class="footer-col-text">
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Home</a>
+                                        </p>
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">About
+                                                us</a></p>
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Services</a>
+                                        </p>
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Showcase</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-6">
+                                    <div class="footer-col-head">
+                                        <p class="fs-20 fw-semibold color-black">Legal</p>
+                                    </div>
+                                    <div class="footer-col-text">
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Terms
+                                                of
+                                                use</a>
+                                        </p>
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Privacy
+                                                policy</a></p>
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Cookie
+                                                policy</a></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-6">
+                                    <div class="footer-col-head">
+                                        <p class="fs-20 fw-semibold color-black">Product</p>
+                                    </div>
+                                    <div class="footer-col-text">
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Take
+                                                tour</a>
+                                        </p>
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Live
+                                                chat</a>
+                                        </p>
+                                        <p><a href="/"
+                                                class="text-decoration-none fs-16 fw-normal color-black footer-text">Reveiws</a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-col-head">
+                                <p class="fs-20 fw-semibold color-black">Newsletter</p>
+                            </div>
+                            <div class="footer-col-text">
+                                <p><a href="/" class="text-decoration-none fs-16 fw-normal color-black footer-text">Stay
+                                        up to
+                                        date</a></p>
+                                <div
+                                    class="footer-button rounded-5 ps-2  py-2 d-flex max-width-340 justify-content-center align-items-center ">
+                                    <input class="footer-inp p-0" type="email" placeholder="Your email ">
+                                    <button
+                                        class="bg-red ms-5 mb-0 border-0 rounded-5 w-100 color-white fs-16 fw-semibold subscribe-btn transition-300ms">Subscribe</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="./assets/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
