@@ -14,17 +14,9 @@
 /*==========Navbar===========*/
 .header-bg-image {
   background-image: url(/assets/images/png/hero-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  background-image: url(/assets/images/png/header-background-image.png);
 }
 .nav-text:hover {
   -webkit-text-stroke: 1px;
-}
-
-.nav-link-width {
-  width: 80%;
 }
 .w-82 {
   width: 82%;
@@ -47,8 +39,7 @@
   transform: rotate(-35deg);
   transition: all 300ms linear;
 }
-
-.nav-btn:hover .nav-vibrate {
+.nav-vibrate:hover {
   animation: shaking 0.2s infinite;
 }
 
@@ -109,7 +100,6 @@
 /*=====About custmor's care=====*/
 .w-1140 {
   max-width: 1140px !important;
-
   margin-left: auto;
   margin-right: auto;
   padding-left: 12px;
@@ -146,16 +136,6 @@
 }
 
 /*==============================responsive==================*/
-
-@media (max-width: 1199px) {
-  .nav-link-width {
-    width: 90% !important;
-  }
-  .logo-img {
-    max-width: 90px !important;
-  }
-}
-
 @media (max-width: 992px) {
   .nav-link {
     display: flex;

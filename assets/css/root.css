@@ -61,6 +61,13 @@
 .color-white {
   color: var(--color-white);
 }
+
+.bg-red {
+  background-color: var(--bg-red);
+}
+.bg-light-pink {
+  background: var(--bg-light-pink);
+}
 .bg-white {
   background-color: var(--color-white);
 }
