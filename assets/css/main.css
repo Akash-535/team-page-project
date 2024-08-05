@@ -223,6 +223,12 @@ section .container .sliderbox .slick-list::after {
   width: auto !important;
 }
 .slick-prev:before,
-.slick-prev::after {
+.slick-next::before {
   display: none;
+}
+/*=about-work===*/
+.red-box-2 {
+  transform: translate(-2%, 10%);
+  bottom: 15%;
+  left: -15%;
 }
