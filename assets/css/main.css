@@ -2,45 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.review{
-    border: 0.83px solid #14141426
-}
-.max-width-435{
-    max-width: 435px;
-}
-.max-width-674{
-    max-width: 674px;
-}
-.max-width-592{
-    max-width: 592px;
-}
-.mt-36{
-    margin-top: 36px;
-}
-.mb-32{
-    margin-bottom: 32px;
-}
-.mb-20{
-    margin-bottom: 20px;
-}
-.box-shadow{
-    box-shadow: 0px 1px 28px 1px #4747471A;
-}
-.padding-18-32{
-    padding: 18px 32px;
-}
-.border-red{
-    background:none;
-    border: 1px solid var(--color-red);
-}
-.get-btn{
-    transition: all .3s linear;
-}
-.get-btn:hover{
-    background-color:var(--color-red) !important;
-    color: var(--color-white);
-    border: 1px solid var(--color-white) !important;
-}
 .review {
     border: 0.83px solid #14141426
 }
@@ -79,6 +40,9 @@
 .box-shadow {
     box-shadow: 0px 1px 28px 1px #4747471A;
 }
+.slide{
+    box-shadow: 0px 2px 44px 3px #5757571A;
+}
 
 .padding-18-32 {
     padding: 18px 32px;
@@ -103,15 +67,7 @@
     border: 1px solid var(--color-white) !important;
 }
 
-.red-box {
-    transform: translate(10% 10%);
-    bottom: 10%;
-    left: -10%;
-}
-
-
 .z-index {
-
     z-index: 1;
     position: relative;
 }
@@ -123,14 +79,6 @@
     background-position: center;
     position: relative;
 }
-.py-64{
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-.max-width-592{
-    max-width: 592px;
-}
-
 
 
 .bg-image::after {
@@ -144,37 +92,7 @@
     right: 0%;
     left: 0%;
     border-radius: 20px;
-
-  }
-  .font-family{
-    font-family: "Plus Jakarta Sans", sans-serif;
-  }
-  .btn-padding{
-    padding: 20px 32px;
-  }
-  .box{
-    border-radius: 24px;
-  }
-  .mb-56{
-    margin-bottom: 56px;
-  }
-  .max-width-300{
-    max-width: 300px;
-  }
-  .custmor-card {
-    background: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 20px;
-    transition: all 100ms ease-in-out;
-  }
-  .custmor-card:hover {
-    border: transparent !important;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) !important;
-  }
-  .about-learn:hover {
-    -webkit-text-stroke: 0.5px;
-  }
-
+}
 
 .box {
     border-radius: 24px;
@@ -225,4 +143,3 @@
     padding-top: 140px;
     padding-bottom: 140px;
 }
- 
