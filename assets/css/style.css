@@ -18,8 +18,8 @@
 .nav-text:hover {
   -webkit-text-stroke: 1px;
 }
-.w-82 {
-  width: 82%;
+.nav-link-width {
+  width: 80%;
 }
 .nav-btn {
   width: 186px;
@@ -39,7 +39,7 @@
   transform: rotate(-35deg);
   transition: all 300ms linear;
 }
-.nav-vibrate:hover {
+.nav-btn:hover .nav-vibrate {
   animation: shaking 0.2s infinite;
 }
 
