@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url(./root.css);
+.manrope {
+  font-family: "Manrope", sans-serif;
+}
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.cursor {
+  cursor: pointer;
+}
+/*===========Header===========*/
+/*==========Navbar===========*/
+.header-bg-image {
+  background-image: url(/assets/images/png/hero-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-text:hover {
+  -webkit-text-stroke: 1px;
+}
+.nav-link-width {
+  width: 80%;
+}
+.nav-btn {
+  width: 186px;
+  height: 52px;
+  border: 0;
+}
+.line-1-1 {
+  transform-origin: left;
+  transform: rotate(35deg);
+  transition: all 300ms linear;
+}
+.line-2 {
+  background-color: transparent !important;
+}
+.line-3 {
+  transform-origin: left;
+  transform: rotate(-35deg);
+  transition: all 300ms linear;
+}
+.nav-btn:hover .nav-vibrate {
+  animation: shaking 0.2s infinite;
+}
+
+@keyframes shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/*=============hero-section=========*/
+.hero-heading {
+  max-width: 830px;
+}
+.hero-pera {
+  max-width: 742px;
+}
+.hero-btn {
+  width: 173px;
+  height: 63px;
+  border: 0;
+  border-radius: 100px;
+  background: var(--bg-red);
+  transition: all 300ms linear;
+  border: 1px solid red;
+}
+.hero-btn:hover {
+  background: white;
+  color: red;
+}
+.media-card {
+  width: 230px;
+  height: 80px;
+  background: white;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.media-card:hover,
+.social-img:hover {
+  transform: scale(1.02);
+}
+.social-img {
+  cursor: pointer;
+}
+
+/*=====About custmor's care=====*/
+.w-1140 {
+  max-width: 1140px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.about-custmor-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  transition: all 100ms ease-in-out;
+}
+.about-custmor-card:hover {
+  border: transparent !important;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) !important;
+}
+.about-learn:hover {
+  -webkit-text-stroke: 0.5px;
+}
+
+/*==============================responsive==================*/
+@media (max-width: 1199px) {
+  .nav-link-width {
+    width: 90% !important;
+  }
+  .logo-img {
+    max-width: 90px !important;
+  }
+}
+@media (max-width: 992px) {
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) !important;
+    width: 75%;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    left: -100% !important;
+    top: 0%;
+    z-index: 2;
+    transition: all 0.3s linear !important;
+  }
+
+  .show-nvabar {
+    left: 0 !important;
+  }
+
+  .menu-btn {
+    width: 35px;
+    align-content: center !important;
+    background: none;
+    display: block;
+    z-index: 3;
+  }
+
+  .line {
+    height: 4px;
+    display: flex;
+    margin: 4px;
+    background: red;
+  }
+
+  .line-1 {
+    width: 13px;
+  }
+
+  .about-head {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 768px) {
+  .about-heading {
+    font-size: 18px !important;
+  }
+  .about-pera {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 576px) {
+}
