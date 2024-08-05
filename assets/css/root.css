@@ -60,9 +60,52 @@
 .color-white {
   color: var(--color-white);
 }
+
 .bg-red {
   background-color: var(--bg-red);
 }
 .bg-light-pink {
-  background: var(--bg-light-pink);
+  background: var(--bg-light-pink);}
+.bg-white {
+  background-color: var(--color-white);
+}
+.bg-red {
+  background-color: var(--color-red);
+}
+@media (max-width: 992px) {
+  :root {
+    --fs-sm: 11px;
+    --fs-md: 13px;
+    --fs-lg: 15px;
+    --fs-xl: 17px;
+    --fs-2xl: 18px;
+    --fs-3xl: 22px;
+    --fs-4xl: 50px;
+    --fs-5xl: 60px;
+  }
+}
+@media (max-width: 769px) {
+  :root {
+    --fs-sm: 10px;
+    --fs-md: 12px;
+    --fs-lg: 14px;
+    --fs-xl: 15px;
+    --fs-2xl: 17px;
+    --fs-3xl: 20px;
+    --fs-4xl: 45px;
+    --fs-5xl: 56px;
+  }
+}
+@media (max-width: 512px) {
+  :root {
+    --fs-sm: 9px;
+    --fs-md: 10px;
+    --fs-lg: 12px;
+    --fs-xl: 14px;
+    --fs-2xl: 16px;
+    --fs-3xl: 18px;
+    --fs-4xl: 35px;
+    --fs-5xl: 50px;
+  }
+
 }

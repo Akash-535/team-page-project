@@ -5,6 +5,7 @@ const navbarbtn = () => {
     document.getElementById("lines-2").classList.toggle("line-2")
     document.getElementById("lines-3").classList.toggle("line-3")
 
+
 }
 
 
