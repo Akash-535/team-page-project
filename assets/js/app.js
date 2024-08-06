@@ -20,6 +20,7 @@ $(".sliderbox").slick({
     autoplaySpeed: 2000,
     infinite: true,
     variableWidth: true,
+     
     responsive: [
         {
             breakpoint: 1024,
