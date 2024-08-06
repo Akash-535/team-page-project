@@ -13,7 +13,7 @@ $(".sliderbox").slick({
     dots: false,
     infinite: true,
     speed: 3000,
- 
+
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
