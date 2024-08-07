@@ -13,9 +13,15 @@
   --color-red: #ff0000;
   --color-white: #ffff;
   --color-black: #000000;
-  --bg-light-pink: #ffebeb;
-  --bg-red: #ff0000;
-  --bg-light-red: #f7d4d4;
+  --color-light-pink: #ffebeb;
+
+  --color-light-red: #f7d4d4;
+  --color-gredient: linear-gradient(
+    90deg,
+    rgba(22, 22, 22, 0) 0%,
+    #696969 51.56%,
+    rgba(22, 22, 22, 0) 100%
+  );
 }
 
 /*==========Font-size=======*/
@@ -63,22 +69,22 @@
 }
 
 .bg-red {
-  background-color: var(--bg-red);
+  background-color: var(--color-red);
 }
 .bg-light-pink {
-  background: var(--bg-light-pink);
+  background: var(--color-light-pink);
 }
 .bg-white {
   background-color: var(--color-white);
 }
-.bg-red {
-  background-color: var(--color-red);
-}
 .bg-light-pink {
-  background: var(--bg-light-pink);
+  background: var(--color-light-pink);
 }
 .bg-light-red {
-  background: var(--bg-light-red);
+  background: var(--color-light-red);
+}
+.bg-gredient {
+  background: var(--color-gredient);
 }
 @media (max-width: 992px) {
   :root {
