@@ -455,7 +455,7 @@ section .container .sliderbox .slick-list::after {
   .nav-link {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) !important;
+    background: white !important;
     width: 75%;
     position: fixed;
     justify-content: center;
