@@ -57,6 +57,7 @@ $(".sliderbox").slick({
                 autoplaySpeed: 2000,
                 dots: true,
             }
+            
         }
     ]
 });
