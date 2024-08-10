@@ -29,6 +29,7 @@ body {
   height: 52px;
   border: 0;
 }
+
 .line-1-1 {
   transform-origin: left;
   transform: rotate(35deg);
@@ -227,8 +228,8 @@ section .container .sliderbox .slick-list::after {
 }
 .get-btn {
   transition: all 0.3s linear;
-  background-color: var(--color-white) !important;
-  color: var(--color-red) !important;
+  background-color: var(--color-red) !important;
+  color: var(--color-white) !important;
 }
 .padding-18-32 {
   padding: 18px 32px;
@@ -238,8 +239,8 @@ section .container .sliderbox .slick-list::after {
   border: 1px solid var(--color-red);
 }
 .get-btn:hover {
-  background-color: var(--color-red) !important;
-  color: var(--color-white) !important;
+  background-color: var(--color-whire) !important;
+  color: var(--color-red) !important;
   border: 1px solid var(--color-red) !important;
 }
 .max-width-592 {
@@ -458,18 +459,18 @@ section .container .sliderbox .slick-list::after {
     display: flex;
     flex-direction: column;
     background: white !important;
-    width: 75%;
+    width: 100%;
     position: fixed;
     justify-content: center;
     bottom: 0;
-    left: -100% !important;
+    right: -100% !important;
     top: 0%;
     z-index: 2;
     transition: all 0.3s linear !important;
   }
 
   .show-nvabar {
-    left: 0 !important;
+    right: 0% !important;
   }
 
   .menu-btn {
